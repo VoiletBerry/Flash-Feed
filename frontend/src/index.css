@@ -9,3 +9,66 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.mainbox {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: black;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.err {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  left: 20%;
+  top: 8%;
+}
+
+.digit {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  height: fit-content;
+}
+
+.far {
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: white;
+}
+
+.err2 {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  left: 68%;
+  top: 8%;
+}
+
+.msg {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 16%;
+  top: 45%;
+  color: white;
+  width: 75%;
+}
+
+.anchor {
+  text-decoration: none;
+  color: red;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}

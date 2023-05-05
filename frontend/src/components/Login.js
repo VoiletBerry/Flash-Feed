@@ -10,6 +10,7 @@ const Login = () => {
 
   const handleCredentialResponse = (res) => {
     var userObject = jwt_decode(res.credential);
+    localStorage.setItem("user", JSON.stringify(userObject));
     const { name, picture, sub } = userObject;
 
     const doc = {
